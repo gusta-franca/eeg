@@ -1,0 +1,15 @@
+name: eeg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.5
+  - mne=0.22.0
+  - pip
+  - matplotlib
+  - numpy
+  - datalad
+  - pip:
+     - pickle-mixin
+     - datalad
+     - tqdm
